@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #101010;
+}
+
+nav > h1{
+    height: 10vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #202020;
+}
+
+.card-select{
+    width: calc(100% - 20rem);
+    padding: 1rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-select > h1{
+    font-size: 4.5rem;
+}
+
+.card-select .images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card-select .images .image{
+    min-height: 35vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.6s ease;
+}
+
+.card-select .images:hover .image{
+    opacity: 0.5 !important;
+}
+
+.card-select .images:hover .image:hover{
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+.text-input{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.text-input > h1{
+    font-size: 4rem;
+}
+
+.text-input > input{
+    height: 5rem;
+    width: 50%;
+    padding: 1rem 2.5rem;
+    font-size: 3rem;
+    border: none;
+    border-bottom: medium solid #A0A0A0;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.text-input > input:focus{
+    border-bottom: medium solid #202020;
+}
+
+.text-input > button{
+    border: medium solid #202020;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    transition: 0.3s ease;
+}
+
+.text-input > button:hover{
+    background-color: #202020;
+    color: #ffffff;
+    cursor: pointer;
+}

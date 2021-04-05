@@ -4,7 +4,7 @@ import NavBar from './components/NavBar/navBar'
 import CardSelect from './components/CardSelect/cardSelect'
 import TextInput from './components/TextInput/textInput'
 
-const Images = ["./thumb.jpg", "./thumb.jpg", "./thumb.jpg", "./thumb.jpg", "./thumb.jpg", "./thumb.jpg" ]
+const Images = ["./0.jpg", "./1.jpg", "./2.jpg", "./3.jpg", "./4.jpg", "./5.jpg" ]
 
 
 const App = () => {
